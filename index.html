@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="gerador de senhas, gerador password"> 
+    <title>Gerador de Senhas</title>
+
+    <link rel="stylesheet" href="./stayke.css">
+</head>
+<body>
+    <img class="logo" src="./img/logo.png" alt="Gerador de senha logo">
+
+    <main class="container-input">
+        <span>Tamanho</span> 
+        <span id="valor">15</span> 
+        <span> caracteres</span>
+        <input id="slider" class="slider" type="range" min="5" max="25" value="15">
+    </main>
+
+    <button id="button" class="button-ca" onclick="generatePassword()">Gerar senha</button>
+
+    <div id="container-password" onclick="copyPassword()" class="container-password hide">
+        <span class="title">Sua senha gerada foi:</span>
+        <span id="password" class="password">:</span>
+        <span class="tooltip">Clique para copiar.😁👍</span>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-left">
+                <p>Dev Felipe Prates</p>
+            </div>
+            <div class="footer-right">
+                <a href="https://github.com/FelipePr4tes" target="_blank">GitHub</a>
+            </div>
+        </div>
+    </footer>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
