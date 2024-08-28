@@ -11,7 +11,7 @@ Bem-vindo ao Gerador de Senhas! Este projeto oferece uma ferramenta simples e ef
 
 ## Como Usar
 
-1. Acesse o site do gerador de senhas: [Gerador de Senhas](https://geradordesenh4s.netlify.app/).
+1. Acesse o site do gerador de senhas: [Gerador de Senhas](https://geradordesenh4a.netlify.app/).
 2. Use o controle deslizante para ajustar o comprimento da senha.
 3. Selecione as opções desejadas para incluir caracteres especiais, letras maiúsculas e números.
 4. Clique no botão para gerar uma nova senha.
